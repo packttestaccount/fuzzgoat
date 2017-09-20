@@ -1,4 +1,4 @@
-CC=afl-gcc
+CC=gcc
 DEPS=main.c fuzzgoat.c
 ASAN=-fsanitize=address
 CFLAGS=-I.
